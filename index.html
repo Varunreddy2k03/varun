@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Varun Reddy</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+      #nme{
+          color:rgb(29, 176, 186);
+          font-family: Roboto;
+          font-weight:600;
+      }
+      .bg{
+          background-color:blanchedalmond
+      }
+      .about{
+          background-color:white;
+          border-radius:20px;
+      }
+      .hgy{
+          margin-top:100px;
+      }
+      .education,.technical,.internship,.projects,.extra-curricular,.volunteer-experience{
+          background-color:white;
+          border-radius:20px;
+      }
+      .intro{
+          font-family:'Roboto';
+          font-size:30px;
+          font-weight:bold;
+          font-style: italic;
+      }
+      .educaatiomal{
+          text-align:center;
+          padding-bottom:20px;
+          font-family:'Roboto';
+          font-size:30px;
+          font-weight:bold;
+          font-style: italic;
+      }
+      .abt-me{
+          font-family:'Roboto';
+          font-style: italic;
+      }
+      #aot{
+          text-align: left;
+          padding-left:0px;
+          padding-right:0px;
+      }
+      .lit{
+          padding-left:0px;
+          padding-right:0px;
+      }
+      .mae{
+          font-family: roboto;
+          font-weight: 600;
+          font-style: italic;
+          color:rgb(70, 5, 138);
+          font-size:18px;
+      }
+      .maw{
+          font-family: roboto;
+          font-weight: 500;
+          font-style: italic;
+          color:rgb(5, 138, 98);
+          font-size:18px;
+      }
+      .education{
+          text-align:left;
+          font-family: roboto;
+          font-style: italic;
+          padding-top:40px;
+      }
+      .study{
+          font-weight:600;
+          font-size:22px;
+          color:darkslateblue
+      }
+      .year{
+          font-size:13.5px;
+          color:gray;
+      }
+      .percentage{
+          font-size:15px;
+          font-weight:600;
+          color:gray;
+      }
+      .institute{
+          color:rgb(96, 6, 151);
+          font-weight:500;
+      }
+      #img{
+          border-radius:30px;
+      }
+      #tech-head{
+          text-align:center;
+          padding-bottom:20px;
+          font-family:'Roboto';
+          font-size:30px;
+          font-weight:bold;
+          font-style: italic;
+      }
+      .hding{
+          text-align:center;
+          padding-bottom:20px;
+          font-family:'Roboto';
+          font-weight:bold;
+          font-style: italic;
+      }
+      .one{
+          font-family: "Roboto";
+          font-style: italic;
+      }
+      .two{
+          font-family: "Roboto";
+          font-style: italic;
+      }
+      .caro{
+          width:100%;
+          max-width: 300px;
+          border-radius: 20px;
+      }
+      .about{
+          margin-top:100px;
+      }
+      .tbb{
+          padding-left:30px;
+      }
+      .contact{
+          background-color: rgb(0, 0, 0);
+          border-top-left-radius: 20px;
+          border-top-right-radius: 20px;
+      }
+      .hdd{
+          text-align:center;
+          padding-bottom:20px;
+          font-family:'Roboto';
+          font-size:30px;
+          font-weight:bold;
+          font-style: italic;
+          color:rgb(191, 180, 98);
+      }
+      .icon{
+          color:#74c0fc;
+          padding-top:13px;
+      }
+      .cont{
+          color:rgb(191, 180, 98);
+      }
+      #lnk{
+          text-decoration: none;
+      }
+    </style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ce075eee41.js" crossorigin="anonymous"></script>
+  </head>
+  <body class="bg">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" id="nme" href="#">Varun Reddy</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav m-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Educational Qualification</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#technical">Technical Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#technical">Tools</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#internship">Internships</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#extra-curricular">Extra Curricular Activities</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#volunteer-experience">Volunteer Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="about m-3 pb-2" id="about">
+      <div class="container hgy">
+        <div class="row">
+            <img id="img" class="mx-auto p-3 col-6 col-md-6 col-lg-3" src="https://i.ibb.co/n7gbcTn/IMG-2716.jpg">
+          <div class="about-me-text d-flex flex-column col-12 col-md-5 col-lg-8 pt-3">
+            <h1 class="intro">About me</h1><hr width="100%" size="2">
+            <p class="abt-me">I am very keen on learning new technologies and keeping myself updated all the time. I am driven by passion. I thrive on challenges and constantly set goals for myself , so I have something to strive towards. I am a very hardworking and enthusiastic person, and I have very high expectations of myself. I’m confident in my ability to work hard and deliver quality results in order to showcase my skills and expertise.</p>
+            <p class="abt-me">I am an individual who embodies the qualities of personal passion, formal education, and a dedicated work ethic, consistently putting forth 100% effort in everything I do.</p>
+          
+          <div class="nme col-12 col-md-9 pb-3"><hr width="100%" size="2">
+            <table class="tbb">
+              <tr class="tbb">
+                <td class="mae">Name:</td>
+                <td class="maw tbb">Maligireddy Varun Reddy</td>
+              </tr>
+              <tr class="tbb">
+                <td class="mae">Date of birth:</td>
+                <td class="maw tbb">20th January, 2003</td>
+              </tr>
+              <tr class="tbb">
+                <td class="mae">Address:</td>
+                <td class="maw tbb">Hyderabad, Telangana, India</td>
+              </tr>
+              <tr class="tbb">
+                <td class="mae">Languages Known: </td>
+                <td class="maw tbb"> English, Hindi, Telugu</td>
+              </tr>
+              <tr class="tbb">
+                <td class="mae">Phone:</td>
+                <td class="maw tbb">+91 6300603065</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="education m-3 pb-4" id="education">
+      
+      <div class="container">
+        <h1 class="educaatiomal">Educational Qualification</h1>
+        <hr width="100%" size="2">
+        <div class="row">
+          <div class="col-6 col-lg-6">
+            <div class="btech d-flex flex-column">
+              <h3 class="study">B.Tech, Electronics and Communication Engineering</h3>
+              <hr width="100%" size="2">
+              <p class="year">2020-2024</p>
+              <p class="percentage">CGPA: 8.05</p>
+              <p class="institute">Sreenidhi Institute of Science and Technology</p>
+            </div>
+          </div>
+            <div class="col-6 col-lg-3">
+              <div class="btech d-flex flex-column">
+                <h3 class="study">Intermediate/ 12th</h3>
+                <hr width="100%" size="2">
+                <p class="year">2018-2020</p>
+                <p class="percentage">Percentage: 98.2</p>
+                <p class="institute">Narayana Junior College</p>
+              </div>
+            </div>
+              <div class="col-6 col-lg-3">
+                <div class="btech d-flex flex-column ">
+                  <h3 class="study">CBSE/ 10th</h3>
+                  <hr width="100%" size="2">
+                  <p class="year">2017-2018</p>
+                  <p class="percentage">Percentage: 87</p>
+                  <p class="institute">Little Flower CBSE Innovative School</p>
+                </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="technical m-3 pt-4" id="technical">
+      <div class="container">
+        <h1 id="tech-head">Tech Skills & Tools</h1>
+        <hr width="100%" size="2">
+        <h4 class="hding">Tech Skills</h4>
+        <hr width="100%" size="2">
+        <div class="row">
+          <p class="col-6 col-lg-3">C Programming</p>
+          <p class="col-6 col-lg-3">C++</p>
+          <p class="col-6 col-lg-3">Python3</p>
+          <p class="col-6 col-lg-3">HTML & CSS</p>
+          <p class="col-6 col-lg-3">Email Marketing</p>
+          <p class="col-6 col-lg-3">Java</p>
+          <p class="col-6 col-lg-3">Social Media Marketing</p>
+          <p class="col-6 col-lg-3">Communication Skills</p>
+          <p class="col-6 col-lg-3">MS Office 2007</p>
+          <p class="col-6 col-lg-3">Graphic Design</p>
+        </div>
+        <hr width="100%" size="2">
+        <h4 class="hding" id="tools">Tools</h4>
+        <hr width="100%" size="2">
+        <div class="row">
+          <p class="col-6 col-lg-3">Figma</p>
+          <p class="col-6 col-lg-3">Wix</p>
+          <p class="col-6 col-lg-3">Hubspot</p>
+          <p class="col-6 col-lg-3">Photoshop</p>
+          <p class="col-6 col-lg-3">Visual Studio Code</p>
+          <p class="col-6 col-lg-3">Bootstrap</p>
+        </div>
+        <hr width="1%" size="0">
+
+        
+      </div>
+
+    </div>
+
+    <div class="internship m-3 pt-4 pb-3" id="internship">
+      <div class="container">
+        <h1 id="tech-head">Internships</h1>
+        <hr width="100%" size="2">
+        <div class="row">
+          <p class="two col-12 col-md-3 col-lg-4"><strong>Amazon(AWS) Data Engineering Virtual Internship </strong><a href="https://drive.google.com/file/d/1O4ePCPk3ikHy9GxY5SieE2_TVv3O0J6I/view?usp=sharing" target="_blank">(Certificate)</a></p>
+          <p class="one col-12 col-md-7 col-lg-6">I acquired
+                comprehensive skills in designing and implementing data pipelines using Amazon
+                Web Services . I gained hands -on experience with AWS services such as S3, Glue ,
+                and Redshift , focusing on data ingestion , transformation , and storage .</p>
+          <p class="one col-12 col-md-2 col-lg-2">Sep 2023 - Nov 2023</p>
+          <p class="two col-12 col-md-3 col-lg-4"><strong>Amazon(AWS) aws aiml virtual internship </strong><a href="https://drive.google.com/file/d/1VzG4oTiXfafn8UhQpODRYsufoaZTpB2g/view?usp=sharing" target="_blank">(Certificate)</a></p>
+          <p class="one col-12 col-md-7 col-lg-6">I gained practical
+                experience and proficiency in artificial intelligence and machine learning technologies
+                offered by Amazon Web Services . I worked extensively with AWS SageMaker ,
+                exploring its capabilities in data preprocessing , model training , and deployment .
+                Through guided projects and hands -on tasks , I developed skills in building and
+                optimizing machine learning models , using techniques such as regression ,
+                classification , and neural networks .This internship not only deepened my technical
+                knowledge in AI/ML but also sharpened my ability to innovate and solve complex
+                problems in a cloud -based environment .</p>
+          <p class="one col-12 col-md-2 col-lg-2">May 2023 - Jul 2023</p>
+          <p class="two col-12 col-md-3 col-lg-4"><strong>Blueprism Robotic Process Automation Internship </strong><a href="https://drive.google.com/file/d/1l2VbAj59TCoiYViEv4hSoBjdLrA6tqJJ/view?usp=sharing" target="_blank">(Certificate)</a></p>
+          <p class="one col-12 col-md-7 col-lg-6"> I acquired hands -on experience in robotic process automation (RPA) using
+                Blue Prisms platform . I developed proficiency in configuring software robots to
+                automate business processes , focusing on efficiency and accuracy .I learned to identify suitable processes for automation ,
+                design workflows , and integrate automation solutions within existing systems .</p>
+          <p class="one col-12 col-md-2 col-lg-2">Dec 2022 - Feb 2023</p>
+          <p class="two col-12 col-md-3 col-lg-4"><strong>Amazon(AWS) Cloud Virtual Internship </strong><a href="https://drive.google.com/file/d/11gJnDpINZqzN8ZcHz4QLjXXO3VzB2ICH/view?usp=sharing" target="_blank">(Certificate)</a></p>
+          <p class="one col-12 col-md-7 col-lg-6">I gained
+                practical experience and proficiency in cloud computing technologies , particularly
+                focusing on AWS EC2 , S3, and Lambda . I applied these skills in designing and
+                implementing scalable architectures for a simulated e-cafe project , optimizing
+                performance and cost -efficiency . I documented project milestones and technical specifications , enhancing
+                my skills in technical documentation and ensuring clarity for future development .</p>
+          <p class="one col-12 col-md-2 col-lg-2">Jul 2022 - Sep 2022</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="projects m-3 pt-4 pb-3" id="projects">
+      <div class="container">
+        <h1 id="tech-head">My Projects</h1>
+        <hr width="100%" size="2">
+        <div class="row">
+          <p class="two col-12 col-md-3 col-lg-4"><strong>SIMULATED DRONE USING ROS AND GAZEBO</strong><a href="https://drive.google.com/file/d/1GvGVrLR3oaXrFT5pSdJNsVyaHI0IIP2Z/view?usp=drivesdk" target="_blank">(Certificate)</a></p>
+          <p class="one col-12 col-md-7 col-lg-6">I gained practical
+                experience in robotics simulation and development . Utilizing ROS for middleware and
+                Gazebo for simulation environment . I integrated sensors and actuators , modeled environmental factors ,
+                and conducted simulated flights to test and refine navigation and autonomy
+                algorithms . Collaborating with a virtual team , I addressed challenges such as sensor
+                noise , localization errors , and path planning optimization . This project not only honed
+                my skills in robotics and simulation but also deepened my understanding of software
+                development lifecycle.</p>
+          <p class="one col-12 col-md-2 col-lg-2">Nov 2021 - Apr 2022</p><hr width="100%" size="2">
+          <p class="two col-12 col-md-3 col-lg-4"><strong>TAKVATOR</strong><a href="https://drive.google.com/file/d/1GvGVrLR3oaXrFT5pSdJNsVyaHI0IIP2Z/view?usp=drivesdk" target="_blank">(Certificate)</a></p>
+          <p class="one col-12 col-md-7 col-lg-6">the aim of the project is to build a bot which detects the spoiling of vegetables and
+                fruits at early stage and prevents them from being rotten .</p>
+          <p class="one col-12 col-md-2 col-lg-2">Jun 2021 - Sep 2021</p><hr width="100%" size="2">
+          <p class="two col-12 col-md-3 col-lg-4"><strong>WILD LIFE PHOTOGRAPHY BOT</strong><a href="https://drive.google.com/file/d/1GvGVrLR3oaXrFT5pSdJNsVyaHI0IIP2Z/view?usp=drivesdk" target="_blank">(Certificate)</a></p>
+          <p class="one col-12 col-md-7 col-lg-6">Wild life photography is one of the most fascinating thing . As a wild life photographer
+                one always tries to take unusual pictures which can be considered as risky task . A
+                photographer has a unique perspective towards clicking pictures . Our problem
+                statement is helping these photographers in clicking the pictures and to ensure that
+                their lives are not at risk .</p>
+          <p class="one col-12 col-md-2 col-lg-2 pb-1">Jan 2021 - Mar 2021</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="extra-curricular m-3 pt-4 pb-3" id="extra-curricular">
+      <div class="container">
+        <h1 id="tech-head">Extra Curricular Activities</h1>
+        <hr width="100%" size="2">
+        <div class="row">
+          <div class="col-6 m-auto">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://i.ibb.co/r3h3S6D/1.jpg" class="d-block caro" >
+                </div>
+                <div class="carousel-item">
+                  <img src="https://i.ibb.co/h9YD5sw/2.jpg" class="d-block caro" >
+                </div>
+                <div class="carousel-item">
+                  <img src="https://i.ibb.co/7tWL54g/3.jpg" class="d-block caro" >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 pt-4">
+            <p class="two "><strong>Basketball</strong></p>
+            <p class="one ">I have been playing basketball since my childhood and played some open category basketball tournaments and achieved some prizes in it and I represented my college for basketball for inter college competitions.</p>
+            
+            <p class="two"><strong>Photography</strong></p>
+            <p class="one ">I have keen interest on photography and i have been doing freelancing in this field in my free time.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="volunteer-experience m-3 pt-4 pb-3" id="volunteer-experience">
+      <div class="container">
+        <h1 id="tech-head">Volunteer Experience</h1>
+        <hr width="100%" size="2">
+        <div class="row">
+          <p class="two col-12 col-md-3 col-lg-4"><strong>ROBOVEDA'22 </strong><a href="https://drive.google.com/file/d/1rwJpOVn3brHe51PdMTTnZ1CgWQIMXAU0/view?usp=sharing" target="_blank">(Certificate) </a></p>
+          <p class="one col-12 col-md-7 col-lg-6">Volunteering for the Roboveda event was an enriching and memorable experience for me .
+             From the moment I stepped into the bustling venue filled with eager participants and cutting -edge
+              robotic creations , I felt a surge of excitement and purpose . 
+              My role involved assisting with registration , guiding attendees to 
+              different activities and workshops , and ensuring everything ran smoothly 
+              behind the scenes . Interacting with participants of all ages and backgrounds 
+              allowed me to witness firsthand the fascination and enthusiasm sparked by robotics .
+               It was incredibly rewarding to see young minds light up with curiosity during 
+               hands -on demonstrations and competitions .</p>
+          <p class="one col-12 col-md-2 col-lg-2">Nov 2022 - Dec 2022</p><hr width="1%" size="0">
+        </div>
+      </div>
+    </div>
+
+    <div class="contact pt-4 pb-3 mt-3 ml-3 mr-3" id="contact">
+      <div class="container">
+        <div class="row">
+          <h4 class="hdd col-12">Contact Me</h4>
+          <div class="col-12">
+            <div class="container p-4">
+              <div class="row d-flex justify-content-center">
+                <a href="https://www.instagram.com/varunreddy2003/" target="_blank"><i class="fa-brands fa-instagram fa-2xl fa-beat icon col-1"></i></a><a style="text-decoration: none;" href="https://www.instagram.com/varunreddy2003/" target="_blank"><p class="cont col-3 col-md-3 col-lg-3 col-xl-2">Instagram</p></a>
+                <a href="https://wa.me/+916300603065" target="_blank"><i class="fa-brands fa-whatsapp icon fa-2xl fa-beat col-1"></i></a><a style="text-decoration: none;" href="https://wa.me/+916300603065" target="_blank"><p class="cont col-3 col-md-3 col-lg-3 col-xl-2">Whatsapp</p></a>
+                <a href="https://www.linkedin.com/in/varunreddy2003/" target="_blank"><i class="fa-brands fa-linkedin fa-beat icon fa-2xl col-1"></i></a><a style="text-decoration: none;" href="https://www.linkedin.com/in/varunreddy2003" target="_blank"><p class="cont col-3 col-md-3 col-lg-3 col-xl-2">LinkedIn</p></a>
+                <a href="mailto:varunreddy2003@gmail.com?" target="_blank"><i class="fa-regular fa-envelope icon fa-beat fa-2xl col-1"></i></a><a style="text-decoration: none;" href="mailto:varunreddy2003@gmail.com?" target="_blank"><p class="cont col-3 col-md-3 col-lg-3 col-xl-2">Gmail&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></a>
+                <a href="https://github.com/Varunreddy2k03" target="_blank"><i class="fa-brands fa-github icon fa-beat fa-2xl col-1"></i></a><a style="text-decoration: none;" href="https://github.com/Varunreddy2k03" target="_blank"><p class="cont col-3 col-md-3 col-lg-3 col-xl-2">GitHub</p></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      $(".navbar-collapse a").click(function () {
+        $(".navbar-collapse").collapse("hide");
+      });
+    </script>
+  </body>
+</html>
